@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jira To Tickets"
+  short_description: "Create reviewed Jira implementation tickets"
+  default_prompt: "Use $jira-to-tickets to split this approved Jira requirement into implementation tickets."
+policy:
+  allow_implicit_invocation: false
